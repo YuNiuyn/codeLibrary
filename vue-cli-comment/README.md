@@ -2,6 +2,8 @@
 
 > 2020-04-10
 
+## 为学习vue-cli搭建的vue项目的代码所建立的
+
 ## Build Setup
 
 ``` bash
