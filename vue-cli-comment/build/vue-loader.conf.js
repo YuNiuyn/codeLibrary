@@ -1,4 +1,5 @@
 'use strict'
+// vue loader 配置
 // css加载器配置
 const utils = require('./utils')
 const config = require('../config')
