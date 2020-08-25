@@ -519,7 +519,7 @@ circularLinked.list(); // 具体控制台
  */
 
 
- function DoublyCircularLinkedList() {
+function DoublyCircularLinkedList() {
    var length = 0, head = null, tail = null;
 
    function Node(element) {
@@ -610,21 +610,7 @@ circularLinked.list(); // 具体控制台
 
     length++;
     return true;
-
-    // console.log('--------------------------------')
-    // console.log('head=====',head);
-    // console.log('head.prev=====',head.prev);
-    // console.log('head.next=====',head.next);
-    // console.log('tail',tail);
-    // console.log('tail.prev=====',tail.prev);
-    // console.log('tail.next=====',tail.next);
-
-    // console.log('previousNode=====',previousNode);
-    // console.log('previousNode.prev=====',previousNode.prev);
-    // console.log('--------------------------------')
   }
-
-
 
   this.removeAt = function(position) {
     if (position < 0 || position > length) {
@@ -715,20 +701,23 @@ circularLinked.list(); // 具体控制台
 	};
 }
 
-var dclList = new DoublyCircularLinkedList();
+/**
+ * 双向循环列表
+ */
+// var dclList = new DoublyCircularLinkedList();
 
-dclList.append('0');
-dclList.append('1');
-dclList.append('3');
-dclList.append('4');
-console.log(dclList.size());
-dclList.print();
-dclList.insert(2,'2');
-console.log(dclList.size());
-dclList.print();
-dclList.removeAt(1);
-dclList.print();
-dclList.list();
-dclList.removeAt('4');
-dclList.print();
-dclList.list();
+// dclList.append('0');
+// dclList.append('1');
+// dclList.append('3');
+// dclList.append('4');
+// console.log(dclList.size());
+// dclList.print();
+// dclList.insert(2,'2');
+// console.log(dclList.size());
+// dclList.print();
+// dclList.removeAt(1);
+// dclList.print();
+// dclList.list();
+// dclList.removeAt('4');
+// dclList.print();
+// dclList.list();
